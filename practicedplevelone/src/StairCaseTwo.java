@@ -31,3 +31,23 @@ public class StairCaseTwo {
         System.out.println(dp[0]);
     }
 }
+
+/**
+ * Array :
+ * 2 3 1 3 1 I can got these many steps
+ * 0 1 2 3 4 steps
+ *
+ * Output
+ *
+ * 3 2 2 1 1 0
+ * 0 1 2 3 4 5
+ *
+ * Array :
+ * 2 3 0 3 1 I can got these many steps
+ * 0 1 2 3 4 steps
+ *
+ * Output
+ *
+ * 3 2 N 1 1 0
+ * 0 1 2 3 4 5
+ */
